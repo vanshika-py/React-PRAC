@@ -60,7 +60,9 @@ function App (){
   return (
     <div>
       
-{React.createElement('h1', null, 'Hello, Muskan!')}
+{/* {React.createElement('h1', null, 'Hello, Muskan!')} */}
+{/* 
+{React.createElement('h1', {className : 'heading'},'Hello, Vanshika')} */}
 
     </div>
   )
