@@ -59,11 +59,19 @@ import React from 'react'
 function App (){
   return (
     <div>
-      
+
+    {/* //const element = <h1>Hello, Muskan!</h1>   */}
 {/* {React.createElement('h1', null, 'Hello, Muskan!')} */}
 {/* 
+
+
+const element = < h1 className = "heading">Hello, Vanshika </h1>
 {React.createElement('h1', {className : 'heading'},'Hello, Vanshika')} */}
 
+
+{/* const element = <a href="https://www.school4you.in" className = "link"> School4u </a> */}
+  
+  {React.createElement('a', {href : "https://www.school4you.in", className : 'link'}, "youtube.com")}
     </div>
   )
 }
