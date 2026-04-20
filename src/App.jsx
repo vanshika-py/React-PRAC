@@ -54,46 +54,82 @@ import './App.css'
 // }
 
 
+
+
+// function App (){
+//   // let n = "Vanshika Kathpal"
+
+//   let alpha = "Vanshika";
+//   let age = 22;
+//   return (
+//     <div>
+
+//     {/* //const element = <h1>Hello, Muskan!</h1>   */}
+// {/* {React.createElement('h1', null, 'Hello, Muskan!')} */}
+// {/* 
+
+
+// const element = < h1 className = "heading">Hello, Vanshika </h1>
+// {React.createElement('h1', {className : 'heading'},'Hello, Vanshika')} */}
+
+
+// {/* const element = <a href="https://www.school4you.in" className = "link"> School4u </a> */}
+  
+//   {/* {React.createElement('a', {href : "https://www.school4you.in", className : 'link'}, "youtube.com")} */}
+
+
+// {/* const element = <h1 className = "heading"> Hello, {namre}</h1> */}
+
+
+// {/* {React.createElement('h1', {className : "heading"}, `HELLO, ${n}`)} */}
+
+// {/* const element = <div> Hello, {alpha}, you are {age} years old </div> */}
+
+// {/* {React.createElement('div', null, `Hello ${alpha}, you are ${age} years old`)} */}
+
+
+
+// // import React from 'react'
+
+// // function Square(props) {
+// //    console.log(props)
+// //   return (
+// //     <div className='square'></div>    
+   
+// //   )
+// // }
+// //    function App(){
+// //    return (
+// //      <h1>
+// //       <Square name = "vanshika" age = {21}/>
+// //      </h1>
+
+// //    )
+// //    }
+
+
+// // export default App
+
+
 import React from 'react'
 
-function App (){
-  // let n = "Vanshika Kathpal"
-
-  let alpha = "Vanshika";
-  let age = 22;
+function Square(){
   return (
-    <div>
-
-    {/* //const element = <h1>Hello, Muskan!</h1>   */}
-{/* {React.createElement('h1', null, 'Hello, Muskan!')} */}
-{/* 
-
-
-const element = < h1 className = "heading">Hello, Vanshika </h1>
-{React.createElement('h1', {className : 'heading'},'Hello, Vanshika')} */}
-
-
-{/* const element = <a href="https://www.school4you.in" className = "link"> School4u </a> */}
-  
-  {/* {React.createElement('a', {href : "https://www.school4you.in", className : 'link'}, "youtube.com")} */}
-
-
-{/* const element = <h1 className = "heading"> Hello, {namre}</h1> */}
-
-
-{/* {React.createElement('h1', {className : "heading"}, `HELLO, ${n}`)} */}
-
-{/* const element = <div> Hello, {alpha}, you are {age} years old </div> */}
-
-{React.createElement('div', null, `Hello ${alpha}, you are ${age} years old`)}
-
+    <div className = 'vanshika'> Hello how are you
     </div>
   )
-
 }
 
+function App(){
+  return(
+    <>
+    <h1>
+      React pe react
+      </h1>
+    <Square/>
+    </>
+  )
+}
 
 export default App
-
-
 
